@@ -1,4 +1,11 @@
 {
-    "name": "custos",
-    "version": "0.0.1"
+  "name": "custos",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
 }
